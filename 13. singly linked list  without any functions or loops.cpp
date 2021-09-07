@@ -1,5 +1,17 @@
 #include <iostream>
 using namespace std;
+/*
+ +---+---+
+ |   |   |   <------  this is what a node looks like
+ +---+---+    
+     
+     (when accessing the node, we have to dereference the pointer that is currently pointing to it)
+     
+ 
+ +---+
+ |   |       <------  this is what a pointer to the node type looks like
+ +---+     
+*/
 
 struct node{
     int data;
