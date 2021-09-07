@@ -9,7 +9,7 @@ using namespace std;
      
  
  +---+
- |   |       <------  this is what a pointer to the node type looks like
+ |   |       <------  this is what a pointer to the node type looks like       i, head, temp in our program
  +---+     
 */
 
