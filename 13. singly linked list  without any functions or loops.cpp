@@ -79,6 +79,7 @@ int main()
    |
   Head
                                                             
-                                                             
+  Note: consider a pointer named A which is pointing to something (whatever is the type of the A pointer). Also, B is another pointer of the sae type as A. whenever we write something like-
+  B = A;     // This simply means ki B bhi ab usi cheez ko point karega jise A point kr raha hai
                                                               
 */
