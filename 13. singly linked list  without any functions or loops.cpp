@@ -12,7 +12,7 @@ int main()
   node* head = NULL;      // a node type pointer named 'head' which will act as an identifier for the whole list. we will try not to disturb it unless necessary
   
   node* temp;             // a node type pointer we will use to store the adress of a newly created node
-  temp = new node();      // creating a new node. it will return the adress of the new node which we will store in the pointer capable of storing the adress of a node
+  temp = new node();      // creating a new node. it will return the adress of the new node which we will store in the pointer capable of storing the adress of a node (which is temp)
   
   (*temp).data = 1;       // we write (*temp) to dereference the the node type pointer to access its contents. think of the node as a house. we enter the house which has 2 rooms, 1 containing the data and other 1 containing the adress of the next node
   (*temp).next = NULL;    // we have to dereference the node to access its contents
